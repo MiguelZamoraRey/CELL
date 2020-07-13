@@ -50,7 +50,7 @@
             "Key": "19945751-096a-4266-a6a1-f918f5178e1a",
             "Value": {
                 "id": "2579a30b-1290-40c5-b230-7376e6fd88bf",
-                "resourcePath": "objects\\obj_enemy_yellow\\obj_enemy_yellow.yy",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "f08c8d96-39bc-40f9-a0cd-6ddbae2d2aba",
+            "Value": {
+                "id": "26233cc0-3f1c-4ba8-9515-add565f01e21",
+                "resourcePath": "scripts\\scr_create_enemy\\scr_create_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "837aba80-fdaf-43e1-b3c5-5975a1d3ca46",
@@ -304,7 +312,7 @@
         }
     ],
     "script_order": [
-        
+        "f08c8d96-39bc-40f9-a0cd-6ddbae2d2aba"
     ],
     "tutorial": ""
 }

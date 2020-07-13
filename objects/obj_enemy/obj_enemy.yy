@@ -2,7 +2,7 @@
     "id": "19945751-096a-4266-a6a1-f918f5178e1a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy_yellow",
+    "name": "obj_enemy",
     "eventList": [
         {
             "id": "7ddbc349-3fc8-492b-a055-a8d91f8f3ad6",
@@ -41,7 +41,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "85c9ee86-2297-4f15-8afb-71666913e2f5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "lvl",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "76ac3908-dd99-4bd9-9a25-6b45b635beba",
     "visible": true

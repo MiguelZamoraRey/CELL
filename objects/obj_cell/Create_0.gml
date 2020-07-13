@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Variables del Jugador
 v = 3;
+lvl = 0;
