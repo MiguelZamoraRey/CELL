@@ -11,4 +11,4 @@ if((alarm[2]/60)>10){
 	draw_text(scr_getViewX()+900,30,string(alarm[2]/60));
 }
 
-draw_text(scr_getViewX()+350,30,"SCORE: "+string(global.score_player));
+draw_text(scr_getViewX()+400,30,"SCORE: "+string(global.score_player));
