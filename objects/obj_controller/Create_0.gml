@@ -1,6 +1,6 @@
 /// @description Initial creations
 global.game_state = 0;
-global.player_lvl = 0;
+global.player_lvl = 1;
 global.score_player = 0;
 
 #region //basics
