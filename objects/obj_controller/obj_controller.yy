@@ -53,12 +53,22 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "9d0e3a27-c906-4c10-a873-1a17531710af"
+        },
+        {
+            "id": "01786fa3-c61e-4d0f-95e6-be331d8a235c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "9d0e3a27-c906-4c10-a873-1a17531710af"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -84,6 +94,34 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "player_lvl",
+            "varType": 1
+        },
+        {
+            "id": "e232558b-0368-4d46-ba1d-b42f32048d1f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "score_player",
+            "varType": 1
+        },
+        {
+            "id": "538ad568-9fdf-471a-baa9-b931d25ba0be",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "game_state",
             "varType": 1
         }
     ],

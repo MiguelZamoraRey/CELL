@@ -13,8 +13,9 @@ if (mouse_check_button(mb_left)){
 }
 
 //dividirse
-if (mouse_check_button(mb_right)){
-
+if (mouse_check_button(mb_right) && global.player_lvl > 2){
+	sprite_index = spr_cell_divide;
+	alarm[0] = room_speed * 1;
 }
 
 #endregion
