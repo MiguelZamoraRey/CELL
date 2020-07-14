@@ -15,5 +15,5 @@ if(lvlOther <= global.player_lvl){//se lo come
 	
 } else {//es comido
 	audio_play_sound(snd_sqash,1,false);
-	game_restart();
+	room_goto_next();
 }
