@@ -11,7 +11,13 @@ for (var j=0; j< 4; j++){
 		var lvl = irandom(5);
 	}
 	
-	scr_create_enemy(random(4096),random(3050),"mid",spr_enemy_yellow,lvl);
+	var rndEnemy = irandom(2);
+	var spr_enemy;
+	if rndEnemy == 0 spr_enemy = spr_enemy_black;
+	if rndEnemy == 1 spr_enemy = spr_enemy_pink;
+	if rndEnemy == 2 spr_enemy = spr_enemy_green;
+			
+	scr_create_enemy(random(4096),random(3050),"mid",spr_enemy,lvl);
 }
 #endregion
 
