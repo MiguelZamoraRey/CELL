@@ -1,4 +1,5 @@
 //scr_create_enemy(enemyX,enemyY,layer,sprite,level);
+
 var enemyX = argument0;
 var enemyY = argument1;
 var enemyLayer = argument2;
